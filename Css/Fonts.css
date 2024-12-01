@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "Lexend-Black-Título-H1";
+    src: url("/resources/Fonts/Title/Lexend-Black.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "Lexend-Bold-Título-H2";
+    src: url("/resources/Fonts/Title/Lexend-Bold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "Quicksand-Regular-Texto";
+    src: url("/resources/Fonts/Text/Quicksand-Regular.ttf") format("truetype");
+    font-weight: 400;
+}

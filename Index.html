@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué son y cómo nombrar variables en programación?</title>
+    <link rel="stylesheet" href="/Css/StylesWelcome.css">
+    <link rel="stylesheet" href="/Css/Fonts.css">
+    <link rel="icon" href="/resources/Images/Recurso 21@4x.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="teclado-contenedor">
+            <img src="resources/Home/Recurso 1@4x.png" 
+                alt="Teclado" 
+                title="Teclado" 
+                class="teclado"
+                width="242px"
+                height="171px">
+            <img src="resources/Home/Recurso 2@4x.png" 
+                alt="Mano Izquierda" 
+                title="Mano Izquierda" 
+                class="mano izquierda"
+                width="96px"
+                height="125px">
+            <img src="resources/Home/Recurso 4@4x.png" 
+                alt="Mano Derecha" 
+                title="Mano Derecha" 
+                class="mano derecha"
+                width="96px"
+                height="125px">
+        </div>
+        <h1 title="¿Qué son las variables y cómo nombrarlas correctamente?">¿Qué son y cómo nombrar variables en programación?</h1>
+        <p class="p_h1">Domina el nombramiento de <strong>variables</strong> para comprender mejor tu código</p>
+    </header>
+    
+    <button id="playButton"><a href="/Html/Pages/Objetivos.html" target="_blank"><img src="/resources/Images/Recurso 26@4x.png" alt="Memoria USB" class="img-h1"></a></button>
+
+    <audio id="sonidoEscritura" src="resources/sounds/Escritura.wav" preload="auto" loop></audio>
+
+    <div class="bubble-container">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    <script>
+        // Obtén el botón y el audio
+        const playButton = document.getElementById('playButton');
+        const sonidoEscritura = document.getElementById('sonidoEscritura');
+
+        // Cuando el usuario haga clic en el botón, reproduce el sonido
+        playButton.addEventListener('click', function() {
+            sonidoEscritura.play();
+        });
+    </script>
+</body>
+</html>
